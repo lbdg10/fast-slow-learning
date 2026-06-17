@@ -1,0 +1,54 @@
+EXPORTS
+  ;***************************************************
+  ;Common Functions
+  ;****************************************************
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetTypesPlatform @1
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetVersion @2
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetDebugLogging @3
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiInstantiate @4
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiFreeInstance @5
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetupExperiment @6
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiEnterInitializationMode @7
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiExitInitializationMode @8
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiTerminate @9
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiReset @10
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetReal @11
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetInteger @12
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetBoolean @13
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetString @14
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetReal @15
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetInteger @16
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetBoolean @17
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetString @18
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetFMUstate @19
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetFMUstate @20
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiFreeFMUstate @21
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSerializedFMUstateSize @22
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSerializeFMUstate @23
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiDeSerializeFMUstate @24
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetDirectionalDerivative @25
+  ;***************************************************
+  ;Functions for FMI for Model Exchange
+  ;****************************************************
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiEnterEventMode @26
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiNewDiscreteStates @27
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiEnterContinuousTimeMode @28
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiCompletedIntegratorStep @29
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetTime @30
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetContinuousStates @31
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetDerivatives @32
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetEventIndicators @33
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetContinuousStates @34
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetNominalsOfContinuousStates @35
+  ;***************************************************
+  ;Functions for FMI for Co-Simulation
+  ;****************************************************
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiSetRealInputDerivatives @36
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetRealOutputDerivatives @37
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiDoStep @38
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiCancelStep @39
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetStatus @40
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetRealStatus @41
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetIntegerStatus @42
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetBooleanStatus @43
+  SimpleDistricHeating_Examples_MultiLoad_Aroma_sim_fmiGetStringStatus @44
